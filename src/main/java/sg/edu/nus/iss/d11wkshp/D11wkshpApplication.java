@@ -14,7 +14,7 @@ public class D11wkshpApplication {
 		// SpringApplication.run(D11wkshpApplication.class, args);
 		SpringApplication app = new SpringApplication(D11wkshpApplication.class);
 
-		String port = "8080";
+		String port = "3000";
 		ApplicationArguments cliOpts = new DefaultApplicationArguments(args);
 
 		if (cliOpts.containsOption("port")) {
